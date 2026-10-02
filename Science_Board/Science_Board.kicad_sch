@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 218.44 73.66)
+		(size 39.37 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1b6332e6-65fe-49b2-8bae-f7e263fb7de9")
+		(property "Sheetname" "Salvatore"
+			(at 218.44 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Salvatore_sch.kicad_sch"
+			(at 218.44 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Science_Board"
+				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 17.78)
 		(size 20.32 15.24)
 		(exclude_from_sim no)

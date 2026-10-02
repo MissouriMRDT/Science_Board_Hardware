@@ -429,7 +429,7 @@
         "uuid": "4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
       }
     ],
-    "used_designators": "U1-2,D1,L1,#PWR1-4,C1-3,Q1,R1",
+    "used_designators": "U1-2,D1-4,L1,#PWR1-10,C1-3,Q1,R1-4",
     "variants": []
   },
   "sheets": [
@@ -440,6 +440,10 @@
     [
       "29dbc879-8eee-460d-b2ef-7972e76e1e62",
       "Dylan"
+    ],
+    [
+      "1b6332e6-65fe-49b2-8bae-f7e263fb7de9",
+      "Salvatore"
     ]
   ],
   "text_variables": {},
