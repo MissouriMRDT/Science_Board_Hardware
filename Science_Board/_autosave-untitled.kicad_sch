@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ef3b57db-7c34-41e2-82b6-63ea74b569eb")
+	(paper "A4")
+	(lib_symbols)
+	(text "RoveNode"
+		(exclude_from_sim no)
+		(at 200.406 19.304 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "88ce83ab-1239-42f3-a6e1-5962a91e7edb")
+	)
+)

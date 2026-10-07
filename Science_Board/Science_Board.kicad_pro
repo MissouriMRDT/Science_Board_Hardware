@@ -429,7 +429,7 @@
         "uuid": "4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
       }
     ],
-    "used_designators": "U1,#PWR1,#PWR43-76,J1-21",
+    "used_designators": "U1-2,U5,L1,D1-7,#PWR1-79,IC1-3,R1-10,J1-21,C1-9,Q1",
     "variants": []
   },
   "sheets": [
@@ -438,16 +438,8 @@
       "Science_Board"
     ],
     [
-      "29dbc879-8eee-460d-b2ef-7972e76e1e62",
-      "Dylan"
-    ],
-    [
-      "1b6332e6-65fe-49b2-8bae-f7e263fb7de9",
-      "Salvatore"
-    ],
-    [
-      "5d23bcbb-b023-41a8-9e1f-8bad57aae435",
-      "Anthony"
+      "6219bf49-5574-4710-86f4-9f93da84ad76",
+      "Power"
     ]
   ],
   "text_variables": {},
