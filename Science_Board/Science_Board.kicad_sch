@@ -97,6 +97,52 @@
 			)
 		)
 	)
+	(sheet
+		(at 49.53 35.56)
+		(size 34.29 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5d23bcbb-b023-41a8-9e1f-8bad57aae435")
+		(property "Sheetname" "Anthony"
+			(at 49.53 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "anthony.kicad_sch"
+			(at 49.53 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Science_Board"
+				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
