@@ -3563,7 +3563,7 @@
 		(uuid "0c82ed70-ca22-4ae8-8297-13ca2af21454")
 	)
 	(rectangle
-		(start 121.92 13.97)
+		(start 106.68 13.97)
 		(end 162.56 92.71)
 		(stroke
 			(width 0)
@@ -3623,8 +3623,8 @@
 		(uuid "7a343b98-f1d0-470c-aa80-5f12a8463759")
 	)
 	(rectangle
-		(start 82.55 66.04)
-		(end 120.65 91.44)
+		(start 13.97 60.96)
+		(end 52.07 86.36)
 		(stroke
 			(width 0)
 			(type default)
@@ -3635,8 +3635,8 @@
 		(uuid "b586592a-c73f-4a48-92b6-e1253e121d88")
 	)
 	(rectangle
-		(start 60.96 15.24)
-		(end 118.11 58.42)
+		(start 12.7 13.97)
+		(end 69.85 57.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -3647,8 +3647,8 @@
 		(uuid "c14b6429-5208-4561-a8a4-aba7383c2de7")
 	)
 	(rectangle
-		(start 34.29 96.52)
-		(end 109.22 154.94)
+		(start 16.51 96.52)
+		(end 91.44 154.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -3682,7 +3682,7 @@
 	)
 	(text "Servo Connectors"
 		(exclude_from_sim no)
-		(at 67.056 151.638 0)
+		(at 49.276 151.638 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3702,7 +3702,7 @@
 	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 50.292 126.238 0)
+		(at 32.512 126.238 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3712,7 +3712,7 @@
 	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 48.768 114.554 0)
+		(at 30.988 114.554 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3722,7 +3722,7 @@
 	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 48.768 141.478 0)
+		(at 30.988 141.478 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3752,7 +3752,7 @@
 	)
 	(text "AF Connectors"
 		(exclude_from_sim no)
-		(at 101.092 69.088 0)
+		(at 32.512 64.008 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3762,7 +3762,7 @@
 	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 83.566 114.808 0)
+		(at 65.786 114.808 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3772,7 +3772,7 @@
 	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 82.804 101.854 0)
+		(at 65.024 101.854 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3802,7 +3802,7 @@
 	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 47.498 102.87 0)
+		(at 29.718 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3812,7 +3812,7 @@
 	)
 	(text "Can"
 		(exclude_from_sim no)
-		(at 65.786 21.844 0)
+		(at 17.526 20.574 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3822,7 +3822,7 @@
 	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 84.836 139.954 0)
+		(at 67.056 139.954 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3842,7 +3842,7 @@
 	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 83.312 127.508 0)
+		(at 65.532 127.508 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3862,7 +3862,7 @@
 	)
 	(text "Auger Connector"
 		(exclude_from_sim no)
-		(at 103.378 19.812 0)
+		(at 55.118 18.542 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3882,7 +3882,7 @@
 	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 95.25 73.406 0)
+		(at 26.67 68.326 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4010,7 +4010,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 140.97) (xy 87.63 140.97)
+			(xy 55.88 140.97) (xy 69.85 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4020,7 +4020,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 116.84) (xy 74.93 116.84)
+			(xy 69.85 116.84) (xy 57.15 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4060,7 +4060,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 107.95) (xy 44.45 107.95)
+			(xy 116.84 35.56) (xy 125.73 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d74ee8-f179-4e2d-860b-f78df6559a9b")
+	)
+	(wire
+		(pts
+			(xy 34.29 107.95) (xy 26.67 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4070,7 +4080,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 115.57) (xy 53.34 116.84)
+			(xy 35.56 115.57) (xy 35.56 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4090,7 +4100,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 83.82) (xy 99.06 80.01)
+			(xy 30.48 78.74) (xy 30.48 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4130,7 +4140,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 78.74) (xy 99.06 77.47)
+			(xy 30.48 73.66) (xy 30.48 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4140,13 +4150,23 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 40.64) (xy 82.55 40.64)
+			(xy 20.32 39.37) (xy 34.29 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3ac233cf-cfeb-4284-959d-1b9f5d16051c")
+	)
+	(wire
+		(pts
+			(xy 116.84 33.02) (xy 125.73 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e042ad4-eec6-42fb-9338-1795c37bb812")
 	)
 	(wire
 		(pts
@@ -4160,7 +4180,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 115.57) (xy 53.34 115.57)
+			(xy 20.32 115.57) (xy 35.56 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4170,7 +4190,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 128.27) (xy 53.34 128.27)
+			(xy 19.05 128.27) (xy 35.56 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4190,13 +4210,23 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 107.95) (xy 82.55 106.68)
+			(xy 64.77 107.95) (xy 64.77 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "47c0109f-f0d7-4460-8bd3-d5dab22b3731")
+	)
+	(wire
+		(pts
+			(xy 115.57 63.5) (xy 125.73 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e87935-e2bd-4060-9a2b-13ce80931a4b")
 	)
 	(wire
 		(pts
@@ -4220,7 +4250,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 119.38) (xy 87.63 119.38)
+			(xy 66.04 119.38) (xy 69.85 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4230,7 +4260,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 107.95) (xy 44.45 110.49)
+			(xy 26.67 107.95) (xy 26.67 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4260,7 +4290,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 146.05) (xy 53.34 146.05)
+			(xy 29.21 146.05) (xy 35.56 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4270,7 +4300,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 106.68) (xy 86.36 106.68)
+			(xy 64.77 106.68) (xy 68.58 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4280,7 +4310,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 129.54) (xy 87.63 129.54)
+			(xy 57.15 129.54) (xy 69.85 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4290,7 +4320,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 83.82) (xy 99.06 83.82)
+			(xy 19.05 78.74) (xy 30.48 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4300,7 +4330,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 133.35) (xy 87.63 133.35)
+			(xy 64.77 133.35) (xy 69.85 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4310,7 +4340,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 78.74) (xy 99.06 78.74)
+			(xy 25.4 73.66) (xy 30.48 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4320,7 +4350,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 143.51) (xy 82.55 144.78)
+			(xy 64.77 143.51) (xy 64.77 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4330,7 +4360,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 143.51) (xy 82.55 143.51)
+			(xy 69.85 143.51) (xy 64.77 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4400,7 +4430,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 33.02) (xy 68.58 40.64)
+			(xy 20.32 31.75) (xy 20.32 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4420,6 +4450,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 52.07) (xy 125.73 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723a468b-e356-4be4-929f-aa152c7ed45e")
+	)
+	(wire
+		(pts
 			(xy 229.87 110.49) (xy 229.87 128.27)
 		)
 		(stroke
@@ -4430,7 +4470,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 104.14) (xy 86.36 104.14)
+			(xy 55.88 104.14) (xy 68.58 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4450,7 +4490,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 143.51) (xy 53.34 143.51)
+			(xy 19.05 143.51) (xy 35.56 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4530,7 +4570,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 116.84) (xy 74.93 115.57)
+			(xy 57.15 116.84) (xy 57.15 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4550,7 +4590,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 50.8) (xy 76.2 43.18)
+			(xy 27.94 49.53) (xy 27.94 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4560,7 +4600,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 119.38) (xy 53.34 119.38)
+			(xy 27.94 119.38) (xy 35.56 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4570,7 +4610,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 133.35) (xy 87.63 132.08)
+			(xy 69.85 133.35) (xy 69.85 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4640,7 +4680,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 105.41) (xy 52.07 105.41)
+			(xy 21.59 105.41) (xy 34.29 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4720,7 +4760,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 130.81) (xy 53.34 130.81)
+			(xy 27.94 130.81) (xy 35.56 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4770,7 +4810,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 43.18) (xy 82.55 43.18)
+			(xy 27.94 41.91) (xy 34.29 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4866,6 +4906,30 @@
 			)
 		)
 	)
+	(global_label "I2C1_SDA"
+		(shape input)
+		(at 116.84 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2989e749-6cbc-4e95-9fe4-d79a53884d94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.0253 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Serial Clock"
 		(shape input)
 		(at 219.71 95.25 180)
@@ -4879,6 +4943,54 @@
 		(uuid "323bf3b0-bc06-4d49-a944-1ace9432d26e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 205.053 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C1_SCL"
+		(shape input)
+		(at 116.84 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "424fbdb4-3243-4053-ac15-aeb32b6d6d51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.0858 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TIM2_CH4"
+		(shape input)
+		(at 115.57 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f7eb12f-9d93-45de-aa9d-1ddec891ea3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.5739 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5058,9 +5170,33 @@
 			)
 		)
 	)
+	(global_label "1_WIRE"
+		(shape input)
+		(at 118.11 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efa90882-93ec-4cb1-b627-470272954424")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.4725 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 39.37 105.41 0)
+		(at 21.59 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5071,7 +5207,7 @@
 		(fields_autoplaced yes)
 		(uuid "07ea666b-6216-4be7-83ed-d3fcfad68d80")
 		(property "Reference" "#PWR065"
-			(at 39.37 109.22 0)
+			(at 21.59 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5082,7 +5218,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 39.37 100.33 0)
+			(at 21.59 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5092,7 +5228,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
-			(at 39.37 105.41 0)
+			(at 21.59 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5103,7 +5239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 105.41 0)
+			(at 21.59 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5114,7 +5250,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 39.37 105.41 0)
+			(at 21.59 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5216,7 +5352,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 119.38 0)
+		(at 27.94 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5227,7 +5363,7 @@
 		(fields_autoplaced yes)
 		(uuid "194b5174-acd1-469e-9cce-ae089835f991")
 		(property "Reference" "#PWR058"
-			(at 45.72 125.73 0)
+			(at 27.94 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5238,7 +5374,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 124.46 0)
+			(at 27.94 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5248,7 +5384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 119.38 0)
+			(at 27.94 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5259,7 +5395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 119.38 0)
+			(at 27.94 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5270,7 +5406,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 119.38 0)
+			(at 27.94 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5625,7 +5761,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 119.38 0)
+		(at 66.04 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5636,7 +5772,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d5c633c-fc5b-45a8-951f-4ff0a295117e")
 		(property "Reference" "#PWR062"
-			(at 83.82 125.73 0)
+			(at 66.04 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5647,7 +5783,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 124.46 0)
+			(at 66.04 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5657,7 +5793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 119.38 0)
+			(at 66.04 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5668,7 +5804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 119.38 0)
+			(at 66.04 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5679,7 +5815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 119.38 0)
+			(at 66.04 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5796,7 +5932,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 58.42 116.84 0)
+		(at 40.64 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5807,7 +5943,7 @@
 		(fields_autoplaced yes)
 		(uuid "341e3227-b4c2-47a8-8b06-aa4869861336")
 		(property "Reference" "J12"
-			(at 60.96 115.5699 0)
+			(at 43.18 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5818,7 +5954,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 60.96 118.1099 0)
+			(at 43.18 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5829,7 +5965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 116.84 0)
+			(at 40.64 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5840,7 +5976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 116.84 0)
+			(at 40.64 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5851,7 +5987,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 58.42 116.84 0)
+			(at 40.64 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5881,7 +6017,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 74.93 115.57 0)
+		(at 57.15 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5892,7 +6028,7 @@
 		(fields_autoplaced yes)
 		(uuid "359cd8e7-2bb6-4745-bb8d-5515051fdda3")
 		(property "Reference" "#PWR071"
-			(at 74.93 119.38 0)
+			(at 57.15 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5903,7 +6039,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 74.93 110.49 0)
+			(at 57.15 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5913,7 +6049,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
-			(at 74.93 115.57 0)
+			(at 57.15 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5924,7 +6060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 115.57 0)
+			(at 57.15 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5935,7 +6071,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 74.93 115.57 0)
+			(at 57.15 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5959,7 +6095,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 91.44 104.14 0)
+		(at 73.66 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5970,7 +6106,7 @@
 		(fields_autoplaced yes)
 		(uuid "38bbd8cc-bece-4de5-b104-29152c4e2d1e")
 		(property "Reference" "J15"
-			(at 93.98 102.8699 0)
+			(at 76.2 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5981,7 +6117,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 93.98 105.4099 0)
+			(at 76.2 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5992,7 +6128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 104.14 0)
+			(at 73.66 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6003,7 +6139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 104.14 0)
+			(at 73.66 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6014,7 +6150,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 91.44 104.14 0)
+			(at 73.66 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6211,7 +6347,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 73.66 104.14 0)
+		(at 55.88 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6222,7 +6358,7 @@
 		(fields_autoplaced yes)
 		(uuid "44749871-9cdc-4d49-8aa9-89b6a18adff3")
 		(property "Reference" "#PWR072"
-			(at 73.66 107.95 0)
+			(at 55.88 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6233,7 +6369,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 73.66 99.06 0)
+			(at 55.88 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6243,7 +6379,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
-			(at 73.66 104.14 0)
+			(at 55.88 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6254,7 +6390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 104.14 0)
+			(at 55.88 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6265,7 +6401,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 73.66 104.14 0)
+			(at 55.88 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6289,7 +6425,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 76.2 21.59 0)
+		(at 27.94 20.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6300,7 +6436,7 @@
 		(fields_autoplaced yes)
 		(uuid "46462c50-3256-406e-8cd0-10d5fe8bacbd")
 		(property "Reference" "J19"
-			(at 78.74 21.5899 0)
+			(at 30.48 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6311,7 +6447,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 78.74 24.1299 0)
+			(at 30.48 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6322,7 +6458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 21.59 0)
+			(at 27.94 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6333,7 +6469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 21.59 0)
+			(at 27.94 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6344,7 +6480,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 76.2 21.59 0)
+			(at 27.94 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6371,7 +6507,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:Molex_Megafit_02")
-		(at 82.55 40.64 0)
+		(at 34.29 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6382,7 +6518,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a81f787-7060-4139-b99e-d55f3cc97d18")
 		(property "Reference" "J20"
-			(at 96.52 40.6399 0)
+			(at 48.26 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6393,7 +6529,7 @@
 			)
 		)
 		(property "Value" "Molex_Megafit_02"
-			(at 96.52 43.1799 0)
+			(at 48.26 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6404,7 +6540,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
-			(at 82.55 40.64 0)
+			(at 34.29 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6416,7 +6552,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/768250002?display=pdf"
-			(at 82.55 40.64 0)
+			(at 34.29 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6428,7 +6564,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 40.64 0)
+			(at 34.29 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6455,7 +6591,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 58.42 128.27 0)
+		(at 40.64 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6466,7 +6602,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b7755f2-89a0-4d48-af9e-b67a0f2fda97")
 		(property "Reference" "J13"
-			(at 60.96 126.9999 0)
+			(at 43.18 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6477,7 +6613,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 60.96 129.5399 0)
+			(at 43.18 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6488,7 +6624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 128.27 0)
+			(at 40.64 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6499,7 +6635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 128.27 0)
+			(at 40.64 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6510,7 +6646,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 58.42 128.27 0)
+			(at 40.64 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6540,7 +6676,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 68.58 33.02 0)
+		(at 20.32 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6551,7 +6687,7 @@
 		(fields_autoplaced yes)
 		(uuid "55960f6e-220f-43f8-ae40-1a95ebd38d08")
 		(property "Reference" "#PWR073"
-			(at 68.58 36.83 0)
+			(at 20.32 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6562,7 +6698,7 @@
 			)
 		)
 		(property "Value" "Vbat"
-			(at 68.58 27.94 0)
+			(at 20.32 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6572,7 +6708,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
-			(at 68.58 33.02 0)
+			(at 20.32 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6583,7 +6719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 33.02 0)
+			(at 20.32 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6594,7 +6730,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 68.58 33.02 0)
+			(at 20.32 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6618,7 +6754,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 92.71 129.54 0)
+		(at 74.93 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6629,7 +6765,7 @@
 		(fields_autoplaced yes)
 		(uuid "5886694d-ae25-4e98-9e88-80d4bba802c3")
 		(property "Reference" "J17"
-			(at 95.25 128.2699 0)
+			(at 77.47 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6640,7 +6776,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 95.25 130.8099 0)
+			(at 77.47 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6651,7 +6787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 129.54 0)
+			(at 74.93 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6662,7 +6798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 129.54 0)
+			(at 74.93 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6673,7 +6809,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 129.54 0)
+			(at 74.93 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6703,7 +6839,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 50.8 0)
+		(at 27.94 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6714,7 +6850,7 @@
 		(fields_autoplaced yes)
 		(uuid "59238618-d881-45bf-a6ea-afe1fdda11bd")
 		(property "Reference" "#PWR074"
-			(at 76.2 57.15 0)
+			(at 27.94 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6725,7 +6861,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 55.88 0)
+			(at 27.94 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6735,7 +6871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 50.8 0)
+			(at 27.94 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6746,7 +6882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 50.8 0)
+			(at 27.94 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6757,7 +6893,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 50.8 0)
+			(at 27.94 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6937,7 +7073,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 104.14 74.93 0)
+		(at 35.56 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6948,7 +7084,7 @@
 		(fields_autoplaced yes)
 		(uuid "66bd0584-6f3c-45a1-b189-8892e299a4ef")
 		(property "Reference" "J6"
-			(at 106.68 74.9299 0)
+			(at 38.1 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6959,7 +7095,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 106.68 77.4699 0)
+			(at 38.1 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6970,7 +7106,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm"
-			(at 104.14 74.93 0)
+			(at 35.56 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6981,7 +7117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 74.93 0)
+			(at 35.56 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6992,7 +7128,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 104.14 74.93 0)
+			(at 35.56 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7185,7 +7321,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 87.63 83.82 0)
+		(at 19.05 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7196,7 +7332,7 @@
 		(fields_autoplaced yes)
 		(uuid "72cce088-9600-4f16-82e9-88a0e4e8e22a")
 		(property "Reference" "#PWR049"
-			(at 87.63 87.63 0)
+			(at 19.05 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7207,7 +7343,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 87.63 78.74 0)
+			(at 19.05 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7217,7 +7353,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
-			(at 87.63 83.82 0)
+			(at 19.05 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7228,7 +7364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 83.82 0)
+			(at 19.05 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7239,7 +7375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 87.63 83.82 0)
+			(at 19.05 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7263,7 +7399,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 73.66 140.97 0)
+		(at 55.88 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7274,7 +7410,7 @@
 		(fields_autoplaced yes)
 		(uuid "74d6f8bc-f037-4522-80ff-6d62f40920e5")
 		(property "Reference" "#PWR069"
-			(at 73.66 144.78 0)
+			(at 55.88 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7285,7 +7421,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 73.66 135.89 0)
+			(at 55.88 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7295,7 +7431,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
-			(at 73.66 140.97 0)
+			(at 55.88 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7306,7 +7442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 140.97 0)
+			(at 55.88 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7317,7 +7453,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 73.66 140.97 0)
+			(at 55.88 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7426,7 +7562,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 78.74 0)
+		(at 25.4 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7437,7 +7573,7 @@
 		(fields_autoplaced yes)
 		(uuid "76e65851-efcc-4c08-8067-32f5333157cf")
 		(property "Reference" "#PWR050"
-			(at 93.98 85.09 0)
+			(at 25.4 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7448,7 +7584,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 83.82 0)
+			(at 25.4 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7458,7 +7594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 78.74 0)
+			(at 25.4 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7469,7 +7605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 78.74 0)
+			(at 25.4 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7480,7 +7616,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 78.74 0)
+			(at 25.4 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7753,7 +7889,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 130.81 0)
+		(at 27.94 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7764,7 +7900,7 @@
 		(fields_autoplaced yes)
 		(uuid "84cff209-53d5-4eb0-b7c8-5f9bd200bb99")
 		(property "Reference" "#PWR059"
-			(at 45.72 137.16 0)
+			(at 27.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7775,7 +7911,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 135.89 0)
+			(at 27.94 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7785,7 +7921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 130.81 0)
+			(at 27.94 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7796,7 +7932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 130.81 0)
+			(at 27.94 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,7 +7943,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 130.81 0)
+			(at 27.94 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7831,7 +7967,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 74.93 129.54 0)
+		(at 57.15 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7842,7 +7978,7 @@
 		(fields_autoplaced yes)
 		(uuid "867fcedc-0bda-4374-b227-1626af430206")
 		(property "Reference" "#PWR070"
-			(at 74.93 133.35 0)
+			(at 57.15 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7853,7 +7989,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 74.93 124.46 0)
+			(at 57.15 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7863,7 +7999,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
-			(at 74.93 129.54 0)
+			(at 57.15 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7874,7 +8010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 129.54 0)
+			(at 57.15 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7885,7 +8021,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 74.93 129.54 0)
+			(at 57.15 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7987,7 +8123,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 92.71 116.84 0)
+		(at 74.93 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7998,7 +8134,7 @@
 		(fields_autoplaced yes)
 		(uuid "8dff5460-024b-4e55-b7c9-bb14f58a24f6")
 		(property "Reference" "J16"
-			(at 95.25 115.5699 0)
+			(at 77.47 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8009,7 +8145,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 95.25 118.1099 0)
+			(at 77.47 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8020,7 +8156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 116.84 0)
+			(at 74.93 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8031,7 +8167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 116.84 0)
+			(at 74.93 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8042,7 +8178,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 116.84 0)
+			(at 74.93 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8630,7 +8766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 133.35 0)
+		(at 64.77 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8641,7 +8777,7 @@
 		(fields_autoplaced yes)
 		(uuid "b133e727-e256-4d4a-bdbf-d7a3146478a9")
 		(property "Reference" "#PWR063"
-			(at 82.55 139.7 0)
+			(at 64.77 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8652,7 +8788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 138.43 0)
+			(at 64.77 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8662,7 +8798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 133.35 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8673,7 +8809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 133.35 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8684,7 +8820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 133.35 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8708,7 +8844,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 57.15 105.41 0)
+		(at 39.37 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8719,7 +8855,7 @@
 		(fields_autoplaced yes)
 		(uuid "b52a0907-4c6d-404b-baf7-7179f56b3b80")
 		(property "Reference" "J11"
-			(at 59.69 104.1399 0)
+			(at 41.91 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8730,7 +8866,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 59.69 106.6799 0)
+			(at 41.91 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8741,7 +8877,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm"
-			(at 57.15 105.41 0)
+			(at 39.37 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8752,7 +8888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 105.41 0)
+			(at 39.37 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8763,7 +8899,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 57.15 105.41 0)
+			(at 39.37 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8793,7 +8929,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 144.78 0)
+		(at 64.77 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8804,7 +8940,7 @@
 		(fields_autoplaced yes)
 		(uuid "b631a82f-bad1-4be7-bbec-66d3af7601e9")
 		(property "Reference" "#PWR064"
-			(at 82.55 151.13 0)
+			(at 64.77 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8815,7 +8951,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 149.86 0)
+			(at 64.77 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8825,7 +8961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 144.78 0)
+			(at 64.77 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8836,7 +8972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 144.78 0)
+			(at 64.77 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8847,7 +8983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 144.78 0)
+			(at 64.77 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8953,7 +9089,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 110.49 0)
+		(at 26.67 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8964,7 +9100,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd0b754c-cea1-4cff-a4e5-a7e01e465ede")
 		(property "Reference" "#PWR057"
-			(at 44.45 116.84 0)
+			(at 26.67 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8975,7 +9111,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 115.57 0)
+			(at 26.67 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8985,7 +9121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 110.49 0)
+			(at 26.67 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8996,7 +9132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 110.49 0)
+			(at 26.67 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9007,7 +9143,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 110.49 0)
+			(at 26.67 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9109,7 +9245,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 38.1 115.57 0)
+		(at 20.32 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9120,7 +9256,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdb6fcfa-3684-4dfa-b659-ab5e47ba3f16")
 		(property "Reference" "#PWR066"
-			(at 38.1 119.38 0)
+			(at 20.32 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9131,7 +9267,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 38.1 110.49 0)
+			(at 20.32 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9141,7 +9277,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
-			(at 38.1 115.57 0)
+			(at 20.32 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9152,7 +9288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 115.57 0)
+			(at 20.32 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9163,7 +9299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 38.1 115.57 0)
+			(at 20.32 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9187,7 +9323,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 36.83 143.51 0)
+		(at 19.05 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9198,7 +9334,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdff6ea3-ec8a-42f9-be5f-25d94feb6c1c")
 		(property "Reference" "#PWR068"
-			(at 36.83 147.32 0)
+			(at 19.05 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9209,7 +9345,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 36.83 138.43 0)
+			(at 19.05 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9219,7 +9355,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
-			(at 36.83 143.51 0)
+			(at 19.05 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9230,7 +9366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 143.51 0)
+			(at 19.05 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9241,7 +9377,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 36.83 143.51 0)
+			(at 19.05 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9421,7 +9557,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 146.05 0)
+		(at 29.21 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9432,7 +9568,7 @@
 		(fields_autoplaced yes)
 		(uuid "c476ba8e-af0d-4c9d-a4e0-0d99776cf256")
 		(property "Reference" "#PWR060"
-			(at 46.99 152.4 0)
+			(at 29.21 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9443,7 +9579,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 151.13 0)
+			(at 29.21 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9453,7 +9589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 146.05 0)
+			(at 29.21 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9464,7 +9600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 146.05 0)
+			(at 29.21 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9475,7 +9611,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 146.05 0)
+			(at 29.21 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9499,7 +9635,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 107.95 0)
+		(at 64.77 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9510,7 +9646,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9e5b33f-e38c-4367-9cad-a24e4e2ac472")
 		(property "Reference" "#PWR061"
-			(at 82.55 114.3 0)
+			(at 64.77 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9521,7 +9657,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 113.03 0)
+			(at 64.77 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9531,7 +9667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 107.95 0)
+			(at 64.77 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9542,7 +9678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 107.95 0)
+			(at 64.77 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9553,7 +9689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 107.95 0)
+			(at 64.77 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9577,7 +9713,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 36.83 128.27 0)
+		(at 19.05 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9588,7 +9724,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd6267ad-e86d-4189-9952-e7a2322347ab")
 		(property "Reference" "#PWR067"
-			(at 36.83 132.08 0)
+			(at 19.05 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9599,7 +9735,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 36.83 123.19 0)
+			(at 19.05 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9609,7 +9745,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
-			(at 36.83 128.27 0)
+			(at 19.05 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9620,7 +9756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 128.27 0)
+			(at 19.05 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9631,7 +9767,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 36.83 128.27 0)
+			(at 19.05 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10024,7 +10160,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 58.42 143.51 0)
+		(at 40.64 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10035,7 +10171,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5764d44-d17f-466b-81b5-2dcd92bda85f")
 		(property "Reference" "J14"
-			(at 60.96 142.2399 0)
+			(at 43.18 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10046,7 +10182,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 60.96 144.7799 0)
+			(at 43.18 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10057,7 +10193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 143.51 0)
+			(at 40.64 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10068,7 +10204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 143.51 0)
+			(at 40.64 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10079,7 +10215,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 58.42 143.51 0)
+			(at 40.64 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10429,7 +10565,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 92.71 140.97 0)
+		(at 74.93 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10440,7 +10576,7 @@
 		(fields_autoplaced yes)
 		(uuid "f40d0cd2-d69f-4ee0-b083-425948f3b8eb")
 		(property "Reference" "J18"
-			(at 95.25 139.6999 0)
+			(at 77.47 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10451,7 +10587,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 95.25 142.2399 0)
+			(at 77.47 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10462,7 +10598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 140.97 0)
+			(at 74.93 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10473,7 +10609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 140.97 0)
+			(at 74.93 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10484,7 +10620,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 140.97 0)
+			(at 74.93 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
