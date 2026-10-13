@@ -4274,6 +4274,18 @@
 		(uuid "26291c79-2b4c-440f-90c5-d5210fc0c0b1")
 	)
 	(rectangle
+		(start 59.69 15.24)
+		(end 102.87 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3917a1ea-17f6-4eb4-8ada-6b615be4727e")
+	)
+	(rectangle
 		(start 105.41 111.76)
 		(end 154.94 140.97)
 		(stroke
@@ -4322,8 +4334,8 @@
 		(uuid "b586592a-c73f-4a48-92b6-e1253e121d88")
 	)
 	(rectangle
-		(start 12.7 13.97)
-		(end 69.85 57.15)
+		(start 12.7 15.24)
+		(end 55.88 52.07)
 		(stroke
 			(width 0)
 			(type default)
@@ -4331,7 +4343,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "c14b6429-5208-4561-a8a4-aba7383c2de7")
+		(uuid "c8c2a63b-4877-4a48-96c4-b0774a395535")
 	)
 	(rectangle
 		(start 12.7 91.44)
@@ -4367,6 +4379,16 @@
 		)
 		(uuid "0f23e4fd-9ae4-4e62-a2b5-cff6203c08c5")
 	)
+	(text "Auger Connector"
+		(exclude_from_sim no)
+		(at 32.258 32.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24cf601c-d212-47ce-a823-b0df32872c8e")
+	)
 	(text "Servo Connectors"
 		(exclude_from_sim no)
 		(at 43.434 98.806 0)
@@ -4377,6 +4399,16 @@
 		)
 		(uuid "2b823244-7d2d-4004-9f31-effed1f1e6a4")
 	)
+	(text "Can"
+		(exclude_from_sim no)
+		(at 25.654 17.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "311b4a3b-eb99-4e06-93b5-d89f6d745925")
+	)
 	(text "Temperature Connector"
 		(exclude_from_sim no)
 		(at 161.798 177.038 0)
@@ -4386,6 +4418,16 @@
 			)
 		)
 		(uuid "33f55958-3183-46f9-a0ad-cd1f4842a59c")
+	)
+	(text "SMoCo Connector"
+		(exclude_from_sim no)
+		(at 79.248 17.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a1938e7-dbb8-4744-bdd3-cefb1b286330")
 	)
 	(text "Time of Flight Connector"
 		(exclude_from_sim no)
@@ -4407,16 +4449,6 @@
 		)
 		(uuid "705255b4-ad23-4bd1-b398-92a0e8106de9")
 	)
-	(text "Can"
-		(exclude_from_sim no)
-		(at 25.654 15.748 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bbd74fc0-2452-4f61-9bc1-c14c540e15af")
-	)
 	(text "Actuation"
 		(exclude_from_sim no)
 		(at 34.544 191.262 0)
@@ -4436,16 +4468,6 @@
 			)
 		)
 		(uuid "ddc6a2d7-bdac-4904-8aee-5ac619bc253b")
-	)
-	(text "Auger Connector"
-		(exclude_from_sim no)
-		(at 55.118 18.542 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e1528a2f-c54b-4346-b4dc-bdbaa6522b3e")
 	)
 	(text "Humidity Connector"
 		(exclude_from_sim no)
@@ -4969,16 +4991,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 39.37) (xy 34.29 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac233cf-cfeb-4284-959d-1b9f5d16051c")
-	)
-	(wire
-		(pts
 			(xy 116.84 33.02) (xy 125.73 33.02)
 		)
 		(stroke
@@ -4996,6 +5008,16 @@
 			(type default)
 		)
 		(uuid "3fb257c2-f28d-4d9c-a001-1fb2f4682cf8")
+	)
+	(wire
+		(pts
+			(xy 66.04 25.4) (xy 66.04 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42fe16b2-227b-4166-881f-eca36930532f")
 	)
 	(wire
 		(pts
@@ -5289,16 +5311,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 31.75) (xy 20.32 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f3a775d-e62c-4c45-ac54-ca6038285d48")
-	)
-	(wire
-		(pts
 			(xy 19.05 130.81) (xy 19.05 137.16)
 		)
 		(stroke
@@ -5356,6 +5368,16 @@
 			(type default)
 		)
 		(uuid "79f738f2-b91c-4498-ba23-7d3ba0804ca9")
+	)
+	(wire
+		(pts
+			(xy 19.05 40.64) (xy 19.05 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9378c8-38e8-4180-b931-eee05b07997f")
 	)
 	(wire
 		(pts
@@ -5519,16 +5541,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 49.53) (xy 27.94 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaa4885b-b37d-4ca7-94a5-051aa5f6446d")
-	)
-	(wire
-		(pts
 			(xy 27.94 119.38) (xy 35.56 119.38)
 		)
 		(stroke
@@ -5576,6 +5588,16 @@
 			(type default)
 		)
 		(uuid "b4368a17-ab91-4b56-98e0-4b5079ac38e1")
+	)
+	(wire
+		(pts
+			(xy 66.04 29.21) (xy 66.04 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b531fe9a-3a1c-4bdd-ae8c-5411420cd6f9")
 	)
 	(wire
 		(pts
@@ -5809,13 +5831,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 41.91) (xy 34.29 41.91)
+			(xy 19.05 44.45) (xy 19.05 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e96d07a8-40a8-4176-9187-2b3680b8e3db")
+		(uuid "e8e7a316-4d6a-4e25-92e2-74189fcdb541")
 	)
 	(wire
 		(pts
@@ -6323,6 +6345,30 @@
 			)
 		)
 	)
+	(global_label "CANL"
+		(shape input)
+		(at 22.86 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c154b3d-0b7b-44f0-b64e-23377324162a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.1576 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Servo6"
 		(shape input)
 		(at 271.78 118.11 0)
@@ -6384,30 +6430,6 @@
 		(uuid "a0ef1743-67ad-4507-8196-6cf572275ce0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 12.0735 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "CANL"
-		(shape input)
-		(at 22.86 22.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a73eb79e-4e6f-441f-96f0-7e7a1f617783")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.1576 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6517,7 +6539,7 @@
 	)
 	(global_label "CANH"
 		(shape input)
-		(at 22.86 20.32 180)
+		(at 22.86 21.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6525,9 +6547,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c5e5e1a9-d6a0-45e5-9a4a-4ef315383591")
+		(uuid "c535e811-aee3-42cf-8fa6-f32034c5b7ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.8552 20.32 0)
+			(at 14.8552 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6733,6 +6755,84 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 19.05 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "074486b2-b3ab-4212-958a-00cd61fd0e06")
+		(property "Reference" "#PWR073"
+			(at 19.05 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vbat"
+			(at 19.05 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+			(at 19.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 19.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a55f5d91-c3ca-464a-98d2-b9e16cf231a3")
+		)
+		(instances
+			(project "Science_Board"
+				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 22.86 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -6882,6 +6982,84 @@
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "180b9e79-351f-4e29-a9da-7dae2235764b")
+		(property "Reference" "#PWR094"
+			(at 66.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d9c5933-714c-498a-9b7a-14eff2b1090f")
+		)
+		(instances
+			(project "Science_Board"
+				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -7715,6 +7893,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 19.05 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3caba148-fe1e-4855-8e65-7c25d9b92743")
+		(property "Reference" "#PWR074"
+			(at 19.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.05 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0ded2ad-f04e-498e-89fc-5f5aa03a8879")
+		)
+		(instances
+			(project "Science_Board"
+				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 137.16 125.73 0)
 		(unit 1)
@@ -7959,88 +8215,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 27.94 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46462c50-3256-406e-8cd0-10d5fe8bacbd")
-		(property "Reference" "J19"
-			(at 30.48 20.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 30.48 22.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 27.94 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e9b29db-9bd0-4e73-b7c1-6b21d955c4eb")
-		)
-		(pin "2"
-			(uuid "48a6d754-5c3f-412b-852b-fd69897a58db")
-		)
-		(instances
-			(project "Science_Board"
-				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:RJ45_LED_Shielded")
 		(at 80.01 74.93 0)
 		(unit 1)
@@ -8154,90 +8328,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Connectors:Molex_Megafit_02")
-		(at 34.29 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a81f787-7060-4139-b99e-d55f3cc97d18")
-		(property "Reference" "J20"
-			(at 48.26 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Molex_Megafit_02"
-			(at 48.26 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
-			(at 34.29 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/768250002?display=pdf"
-			(at 34.29 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "57aff07e-cedc-4718-8710-5dd92e597ca2")
-		)
-		(pin "2"
-			(uuid "4ab1c183-da02-4cb8-9024-5746de3442c4")
-		)
-		(instances
-			(project "Science_Board"
-				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
-					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 39.37 137.16 0)
 		(unit 1)
@@ -8317,84 +8407,6 @@
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
 					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 20.32 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55960f6e-220f-43f8-ae40-1a95ebd38d08")
-		(property "Reference" "#PWR073"
-			(at 20.32 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Vbat"
-			(at 20.32 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
-			(at 20.32 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 20.32 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "527f2d5a-b4b0-4382-ba1d-aeeaaafbbafe")
-		)
-		(instances
-			(project "Science_Board"
-				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8486,8 +8498,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 27.94 49.53 0)
+		(lib_id "MRDT_Connectors:Molex_Megafit_02")
+		(at 66.04 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8496,52 +8508,55 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "59238618-d881-45bf-a6ea-afe1fdda11bd")
-		(property "Reference" "#PWR074"
-			(at 27.94 55.88 0)
+		(uuid "5e68d8e8-6cec-40da-b6d4-54fb8708db57")
+		(property "Reference" "J22"
+			(at 80.01 25.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_Megafit_02"
+			(at 80.01 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+			(at 66.04 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 27.94 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 49.53 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/768250002?display=pdf"
+			(at 66.04 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 27.94 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 49.53 0)
+		(property "Description" ""
+			(at 66.04 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8552,12 +8567,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "debb4369-607b-47bb-8edd-a1764e873c85")
+			(uuid "d0c6450f-97c7-4d8c-880a-a6e1c80e9758")
+		)
+		(pin "2"
+			(uuid "c046c034-a586-4a1c-b972-d115ff35315b")
 		)
 		(instances
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
-					(reference "#PWR074")
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 66.04 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "658912c8-468d-4d76-8235-e3835920fdbf")
+		(property "Reference" "#PWR093"
+			(at 66.04 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vsm"
+			(at 66.04 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+			(at 66.04 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 66.04 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5148492e-8ab4-43cd-891b-a4b583b7e72f")
+		)
+		(instances
+			(project "Science_Board"
+				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -8977,7 +9073,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "72cce088-9600-4f16-82e9-88a0e4e8e22a")
 		(property "Reference" "#PWR049"
 			(at 19.05 82.55 0)
@@ -8990,14 +9085,15 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 19.05 73.66 0)
+		(property "Value" "Vaf"
+			(at 17.526 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
@@ -11052,7 +11148,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bfd71099-c19f-412b-b9c3-17340bea2515")
 		(property "Reference" "#PWR048"
 			(at 171.45 91.44 0)
@@ -11065,14 +11160,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 171.45 82.55 0)
+		(property "Value" "Vuv"
+			(at 170.18 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
@@ -12045,6 +12141,90 @@
 		)
 	)
 	(symbol
+		(lib_id "MRDT_Connectors:Molex_Megafit_02")
+		(at 19.05 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee6b4d0c-672d-42f1-babe-60acde62cb0a")
+		(property "Reference" "J20"
+			(at 33.02 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_Megafit_02"
+			(at 33.02 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+			(at 19.05 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/768250002?display=pdf"
+			(at 19.05 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 19.05 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b62b549-4723-4568-9821-81fee34c84b1")
+		)
+		(pin "2"
+			(uuid "70cc3e93-4bef-48cc-ab0f-65bfc121f2a6")
+		)
+		(instances
+			(project "Science_Board"
+				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 259.08 48.26 0)
 		(unit 1)
@@ -12121,6 +12301,88 @@
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 27.94 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1ba9937-5f7b-4eb7-9863-505f6ed14a25")
+		(property "Reference" "J19"
+			(at 30.48 21.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 30.48 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 27.94 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "504b41c5-8050-432d-bcd8-d33ae4c2efda")
+		)
+		(pin "2"
+			(uuid "a6263b54-5362-4e1d-8d12-04e71c524dc1")
+		)
+		(instances
+			(project "Science_Board"
+				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
+					(reference "J19")
 					(unit 1)
 				)
 			)
