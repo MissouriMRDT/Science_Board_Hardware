@@ -4192,6 +4192,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 30.48) (xy 149.86 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b2eada-d683-4dc3-b34a-f94413831555")
+	)
+	(wire
+		(pts
 			(xy 144.78 157.48) (xy 144.78 163.83)
 		)
 		(stroke
@@ -4259,6 +4269,16 @@
 			(type default)
 		)
 		(uuid "389ca656-e268-4c6e-9454-f423e6e9190f")
+	)
+	(wire
+		(pts
+			(xy 158.75 24.13) (xy 158.75 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b090cd-7d26-480d-933e-2fd6477603d1")
 	)
 	(wire
 		(pts
@@ -4389,16 +4409,6 @@
 			(type default)
 		)
 		(uuid "4c2026fe-760f-4d08-82f3-4de755d79bb5")
-	)
-	(wire
-		(pts
-			(xy 149.86 30.48) (xy 157.48 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c7a3d8b-721a-492a-b7d9-8eb3f110a6e8")
 	)
 	(wire
 		(pts
@@ -5102,7 +5112,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 52.07) (xy 160.02 27.94)
+			(xy 162.56 52.07) (xy 162.56 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5132,7 +5142,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 27.94) (xy 149.86 27.94)
+			(xy 162.56 27.94) (xy 149.86 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5890,6 +5900,54 @@
 			)
 		)
 	)
+	(global_label "CANH"
+		(shape input)
+		(at 153.67 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7d5e87d-8e50-48a3-8891-2004409e97ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.6748 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CANL"
+		(shape input)
+		(at 153.67 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d84d8fa3-d8b7-452a-8897-f93e81b1b9f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.3724 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Servo6"
 		(shape input)
 		(at 36.83 160.02 180)
@@ -6474,7 +6532,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 157.48 30.48 0)
+		(at 158.75 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6485,7 +6543,7 @@
 		(fields_autoplaced yes)
 		(uuid "2be77aa3-93de-441c-9480-a7b9bff0f02d")
 		(property "Reference" "#PWR013"
-			(at 157.48 34.29 0)
+			(at 158.75 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6496,7 +6554,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 157.48 25.4 0)
+			(at 158.75 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6506,7 +6564,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-			(at 157.48 30.48 0)
+			(at 158.75 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6517,7 +6575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 30.48 0)
+			(at 158.75 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6528,7 +6586,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 157.48 30.48 0)
+			(at 158.75 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7785,7 +7843,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 52.07 0)
+		(at 162.56 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7796,7 +7854,7 @@
 		(fields_autoplaced yes)
 		(uuid "66758c6f-b003-4ede-9578-02f95c23c68d")
 		(property "Reference" "#PWR012"
-			(at 160.02 58.42 0)
+			(at 162.56 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,7 +7865,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 57.15 0)
+			(at 162.56 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7817,7 +7875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 52.07 0)
+			(at 162.56 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7828,7 +7886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 52.07 0)
+			(at 162.56 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7839,7 +7897,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 52.07 0)
+			(at 162.56 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
