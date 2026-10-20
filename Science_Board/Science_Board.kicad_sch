@@ -10049,7 +10049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 26.67 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10757,7 +10757,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 33.02 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -11070,7 +11070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 95.25 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11677,7 +11677,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 10.16 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12000,7 +12000,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 11.43 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12687,7 +12687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
 			(at 273.05 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -13084,7 +13084,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 35.56 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13326,7 +13326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
 			(at 262.89 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -15644,7 +15644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 11.43 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -16513,7 +16513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
 			(at 273.05 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -16751,7 +16751,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 26.67 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -17233,7 +17233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 44.45 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -17315,7 +17315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
 			(at 262.89 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -17707,7 +17707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 45.72 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -19577,7 +19577,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 15.24 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -20302,7 +20302,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 10.16 67.31 0)
 			(hide yes)
 			(show_name no)
