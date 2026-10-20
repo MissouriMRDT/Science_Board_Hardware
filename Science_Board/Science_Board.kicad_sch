@@ -5123,7 +5123,7 @@
 		(uuid "0c82ed70-ca22-4ae8-8297-13ca2af21454")
 	)
 	(rectangle
-		(start 11.43 10.16)
+		(start 11.43 11.43)
 		(end 71.12 101.6)
 		(stroke
 			(width 0)
@@ -5195,7 +5195,7 @@
 		(uuid "5e7dcb4b-aace-4ea1-b015-e34606416c61")
 	)
 	(rectangle
-		(start 133.35 100.33)
+		(start 133.35 101.6)
 		(end 161.29 114.3)
 		(stroke
 			(width 0)
@@ -5255,7 +5255,7 @@
 		(uuid "c476f0d8-0e5c-493a-966d-a9a819246dae")
 	)
 	(rectangle
-		(start 71.12 15.24)
+		(start 71.12 11.43)
 		(end 116.84 52.07)
 		(stroke
 			(width 0)
@@ -5280,7 +5280,7 @@
 	)
 	(rectangle
 		(start 116.84 19.05)
-		(end 195.58 92.71)
+		(end 198.12 92.71)
 		(stroke
 			(width 0)
 			(type default)
@@ -5424,7 +5424,7 @@
 	)
 	(text "Actuation"
 		(exclude_from_sim no)
-		(at 152.654 112.522 0)
+		(at 140.97 112.268 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5736,7 +5736,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 105.41) (xy 149.86 105.41)
+			(xy 144.78 107.95) (xy 149.86 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6636,7 +6636,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 102.87) (xy 149.86 102.87)
+			(xy 144.78 105.41) (xy 149.86 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8155,7 +8155,7 @@
 	)
 	(global_label "CANL"
 		(shape input)
-		(at 144.78 105.41 180)
+		(at 144.78 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8165,7 +8165,7 @@
 		)
 		(uuid "380f0afb-90f9-49f3-a5b3-53aea5488b87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.0776 105.41 0)
+			(at 137.0776 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8831,7 +8831,7 @@
 	)
 	(global_label "CANH"
 		(shape input)
-		(at 144.78 102.87 180)
+		(at 144.78 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8841,7 +8841,7 @@
 		)
 		(uuid "8e40158a-4e64-4472-af4e-bad3cde64fc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.7752 102.87 0)
+			(at 136.7752 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11233,7 +11233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 165.1 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -12376,7 +12376,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 154.94 102.87 0)
+		(at 154.94 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12386,7 +12386,7 @@
 		(dnp no)
 		(uuid "461054ae-3b98-4175-823b-207e797fda80")
 		(property "Reference" "J1"
-			(at 157.48 102.8699 0)
+			(at 157.48 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12397,7 +12397,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 149.352 109.474 0)
+			(at 149.352 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12408,7 +12408,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 154.94 102.87 0)
+			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12419,7 +12419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 102.87 0)
+			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12430,7 +12430,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 154.94 102.87 0)
+			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

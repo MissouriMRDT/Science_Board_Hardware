@@ -5503,7 +5503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 62.23 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5826,7 +5826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 27.94 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6067,7 +6067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 213.36 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6226,7 +6226,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 35.56 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6397,7 +6397,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 53.34 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7367,7 +7367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 118.11 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7867,7 +7867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 214.63 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8428,7 +8428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 27.94 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8666,7 +8666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-94-1EP_7x7mm_P0.4mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 40.64 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10384,7 +10384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 16.51 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11373,7 +11373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-94-1EP_7x7mm_P0.4mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 40.64 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -12683,7 +12683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 35.56 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -13247,7 +13247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-94-1EP_7x7mm_P0.4mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 74.93 31.75 0)
 			(hide yes)
 			(show_name no)
