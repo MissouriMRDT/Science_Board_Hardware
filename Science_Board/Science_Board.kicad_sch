@@ -15881,7 +15881,7 @@
 		)
 	)
 	(sheet
-		(at -67.31 109.22)
+		(at 22.86 16.51)
 		(size 36.83 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15897,7 +15897,7 @@
 		)
 		(uuid "8da20ca3-89b8-48b1-8d28-0b97cb4073e9")
 		(property "Sheetname" "Manual Controls"
-			(at -67.31 108.5084 0)
+			(at 22.86 15.7984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15908,7 +15908,7 @@
 			)
 		)
 		(property "Sheetfile" "ManualControls.kicad_sch"
-			(at -67.31 128.8546 0)
+			(at 22.86 36.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
