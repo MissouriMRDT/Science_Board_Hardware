@@ -661,13 +661,17 @@
         "uuid": "4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
       }
     ],
-    "used_designators": "U1-3,U5,#PWR1-79,#PWR81-124,D1-10,L1,J1-23,R1-33,IC1-3,C1-17,Q1-5,H1-8,SW1-12",
+    "used_designators": "U1-3,U5,#PWR1-79,#PWR81-126,D1-30,L1,J1-23,R1-47,IC1-3,C1-17,Q1-5,H1-8,SW1-12",
     "variants": []
   },
   "sheets": [
     [
       "4f5c5f7f-4385-4de2-96ca-2ae741ebf691",
       "Science_Board"
+    ],
+    [
+      "8da20ca3-89b8-48b1-8d28-0b97cb4073e9",
+      "Manual Controls"
     ],
     [
       "6219bf49-5574-4710-86f4-9f93da84ad76",
