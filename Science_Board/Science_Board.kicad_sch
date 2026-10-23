@@ -9790,7 +9790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm"
+		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical"
 			(at 218.44 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12395,7 +12395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PCA9685BS"
+		(property "Value" "PCA9685PW"
 			(at 105.0133 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12406,7 +12406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
+		(property "Footprint" "Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.75x6.2mm"
 			(at 103.505 169.545 0)
 			(hide yes)
 			(show_name no)

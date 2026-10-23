@@ -1062,7 +1062,7 @@
 	)
 	(text "Servo Buttons"
 		(exclude_from_sim no)
-		(at 122.428 193.294 0)
+		(at 120.396 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
