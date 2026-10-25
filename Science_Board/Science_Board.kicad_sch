@@ -5207,10 +5207,6 @@
 		(uuid "0a5c17a6-a321-424c-9461-6ef1973d3cbf")
 	)
 	(no_connect
-		(at 246.38 55.88)
-		(uuid "1d61bd8a-48ac-449c-a6f7-74014742bb58")
-	)
-	(no_connect
 		(at 222.25 49.53)
 		(uuid "23b3a2b6-f051-4085-a9ce-9601843d260e")
 	)
@@ -5249,6 +5245,10 @@
 	(no_connect
 		(at 222.25 66.04)
 		(uuid "a0d47ef1-983a-470c-8253-b406a9162faf")
+	)
+	(no_connect
+		(at 222.25 52.07)
+		(uuid "a3696f52-543e-41e7-b244-c7d711ce99fe")
 	)
 	(no_connect
 		(at 120.65 149.86)
@@ -5677,6 +5677,16 @@
 			(type default)
 		)
 		(uuid "353e51d6-7792-4154-a4d1-f826e249d752")
+	)
+	(wire
+		(pts
+			(xy 246.38 55.88) (xy 247.65 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b1edd6-8083-4c93-add7-69d106d3619c")
 	)
 	(wire
 		(pts
@@ -6157,16 +6167,6 @@
 			(type default)
 		)
 		(uuid "6fb70d98-652c-422c-942d-aa561959a439")
-	)
-	(wire
-		(pts
-			(xy 214.63 52.07) (xy 222.25 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "723a468b-e356-4be4-929f-aa152c7ed45e")
 	)
 	(wire
 		(pts
@@ -7341,6 +7341,30 @@
 			)
 		)
 	)
+	(global_label "1_WIRE"
+		(shape input)
+		(at 247.65 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "305a5e25-bdca-40f5-a105-489da8b37a59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.2875 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Servo8"
 		(shape input)
 		(at 137.16 30.48 180)
@@ -7896,31 +7920,6 @@
 			)
 		)
 	)
-	(global_label "AF_EN"
-		(shape output)
-		(at 247.65 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "843e5a5e-286a-4586-9f5a-298691e0eeac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.2595 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "I2C1_SDA"
 		(shape input)
 		(at 175.26 111.76 180)
@@ -8086,6 +8085,31 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "AF_EN"
+		(shape output)
+		(at 247.65 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "a2923dfa-e4b8-48dc-b7b9-d0b7f109e512")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.2595 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8851,30 +8875,6 @@
 		(uuid "eed00a59-242e-4516-825d-c4e720f44ebd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 198.4008 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "1_WIRE"
-		(shape input)
-		(at 214.63 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "efa90882-93ec-4cb1-b627-470272954424")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.9925 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
