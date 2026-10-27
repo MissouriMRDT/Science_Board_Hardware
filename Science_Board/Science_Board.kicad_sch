@@ -10527,7 +10527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_RJMG1BD3B8K1ANR"
+		(property "Footprint" "MRDT_Connectors:RJ45_Teensy"
 			(at 199.39 141.605 90)
 			(hide yes)
 			(show_name no)
