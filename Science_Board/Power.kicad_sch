@@ -2692,29 +2692,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "Q1"
+				(at 8.89 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "BS250"
-				(at 5.08 0 0)
+				(at 6.35 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2727,7 +2725,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/70209/70209.pdf"
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/NDT452AP/458901"
 				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2938,12 +2936,24 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "BS250_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2958,10 +2968,28 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "G"
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2987,6 +3015,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4050,6 +4096,12 @@
 		(uuid "8fbf1e16-d876-4504-a096-33a81bfb4d2c")
 	)
 	(junction
+		(at 132.08 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91bfea9f-6328-4796-afca-71398dbf90c0")
+	)
+	(junction
 		(at 111.76 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4746,6 +4798,16 @@
 			(type default)
 		)
 		(uuid "5e1d52f7-229f-4cee-a913-f3f683dab129")
+	)
+	(wire
+		(pts
+			(xy 132.08 55.88) (xy 132.08 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68bb2a4a-f939-4898-94b2-1d81ca6aecbf")
 	)
 	(wire
 		(pts
@@ -11213,7 +11275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 			(at 125.095 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11226,7 +11288,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/70209/70209.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/NDT452AP/458901"
 			(at 123.19 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11257,6 +11319,12 @@
 		)
 		(pin "1"
 			(uuid "00bf14dd-49ab-4dc0-a638-a73f7cc2efc6")
+		)
+		(pin "2"
+			(uuid "18fd3cc5-089c-4d47-a7db-2c7eefd470e8")
+		)
+		(pin "4"
+			(uuid "50030376-c10d-42ec-b0a5-bec4ba9c2c4b")
 		)
 		(instances
 			(project "Science_Board"
