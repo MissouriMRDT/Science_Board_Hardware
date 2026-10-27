@@ -12227,7 +12227,7 @@
 				)
 			)
 		)
-		(property "Value" "22uH"
+		(property "Value" "6.8uH"
 			(at 228.6 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12237,7 +12237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRN8040TA"
 			(at 228.6 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12248,7 +12248,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/SRN8040TA-6R8M/6155128?s=N4IgjCBcoEwAwA4DsVQGMoDMCGAbAzgKYA0IA9lANogCsAdAGwAEArQBIin0ysdd0BmXp1qCALMP4T2I%2BjUmikC%2BgmV0AnAuYzSDOmC10eOkHqEm90vqbryLjQ0vur7mk044BdUgAcALlAgAKoAdgCWfgDymACyhNj4AK4AToQgAL6k8AgIqCAYkDgEJORUogYAgrKCTFXeIP6BoRHRcQkpaZkgALQQ0PlYeESkFJDUYGC5nuldNHk%2BUGC%2BC5AwNDNAA"
 			(at 228.6 20.32 0)
 			(hide yes)
 			(show_name no)
