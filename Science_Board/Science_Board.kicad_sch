@@ -11552,7 +11552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 75.184 93.726 90)
 			(hide yes)
 			(show_name no)
@@ -12357,7 +12357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 84.074 87.884 90)
 			(hide yes)
 			(show_name no)
