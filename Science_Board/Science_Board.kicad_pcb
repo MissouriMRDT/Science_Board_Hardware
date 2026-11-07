@@ -22962,6 +22962,17 @@
 			(uuid "f2f4095b-b7a8-4faa-9e51-66a7fa124613")
 		)
 		(embedded_fonts no)
+		(model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_Shields/RoveNode.step"
+			(offset
+				(xyz 13.335 -30.48 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 		(layer "F.Cu")
@@ -32263,6 +32274,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/PokeD/AppData/Local/Programs/KiCad/10.0/share/kicad/3dmodels/Package_SO.3dshapes/TSSOP-28_4.4x9.7mm_P0.65mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -38036,6 +38058,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/PokeD/Downloads/SRN8040TA-6R8M--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz 0 0 -0.635)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -0)
 			)
 		)
 	)
