@@ -7290,7 +7290,7 @@
 			)
 		)
 	)
-	(global_label "AF_TRIP"
+	(global_label "UV_TRIP"
 		(shape input)
 		(at 214.63 43.18 180)
 		(fields_autoplaced yes)
@@ -7303,7 +7303,7 @@
 		)
 		(uuid "03a4e44b-2023-4364-8ccd-39dde21fcaba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.3876 43.18 0)
+			(at 204.1457 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7484,7 +7484,7 @@
 			)
 		)
 	)
-	(global_label "AF_TRIP"
+	(global_label "SM_TRIP"
 		(shape input)
 		(at 214.63 40.64 180)
 		(fields_autoplaced yes)
@@ -7497,7 +7497,7 @@
 		)
 		(uuid "2a0a27ee-a575-44b4-9e1f-d509a57313d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.3876 40.64 0)
+			(at 203.9039 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
