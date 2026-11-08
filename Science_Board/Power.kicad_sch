@@ -3893,6 +3893,19 @@
 		)
 		(uuid "17a0272f-aa08-4209-b69c-6cb20a36b063")
 	)
+	(circle
+		(center 203.2 25.4)
+		(radius 6.35)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 13 36 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1cdd7d22-8b14-4601-9b9f-2377c8cfaf1f")
+	)
 	(rectangle
 		(start 135.89 12.7)
 		(end 231.14 58.42)
@@ -4010,6 +4023,17 @@
 			)
 		)
 		(uuid "058f33f7-0a7e-4428-b491-2c09881802cb")
+	)
+	(text "WHAT THE HELL MAN! \nTIMDAY DOES NOT APROVE"
+		(exclude_from_sim no)
+		(at 233.934 19.558 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 255 27 43 1)
+			)
+		)
+		(uuid "1fc01f9e-0c70-4328-b8e7-6c6b45b89151")
 	)
 	(text "Fuse Detectors"
 		(exclude_from_sim no)
@@ -6083,6 +6107,12 @@
 			(uuid "0fee06f4-1d2b-4afd-ba9f-982c3394b41b")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "D9")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "D9")
@@ -6161,6 +6191,12 @@
 			(uuid "6fbca91b-a485-4e16-8680-9ed5ae1ee93d")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR094")
@@ -6242,6 +6278,12 @@
 			(uuid "e6460686-9e56-4724-a768-da64a7f4cfed")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "C13")
@@ -6323,6 +6365,12 @@
 			(uuid "9beaaef7-a088-4b46-b63e-a3250e780ef9")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "C9")
@@ -6405,6 +6453,12 @@
 			(uuid "c04fbd09-4e82-42e2-a523-281e0886e0f6")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "D10")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "D10")
@@ -6487,6 +6541,12 @@
 			(uuid "06c6c275-7b2c-4f21-b896-3fe4f91912fc")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R4")
@@ -6565,6 +6625,12 @@
 			(uuid "1e2a62e8-0670-498c-9503-51ca1fbea7dd")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR092")
@@ -6658,6 +6724,12 @@
 			(uuid "e2ffd676-063e-4637-9023-5f5db0195b08")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "D13")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "D13")
@@ -6739,6 +6811,12 @@
 			(uuid "f8af7f67-867e-4acc-bb17-e56d76dacf29")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "D6")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "D6")
@@ -6816,6 +6894,12 @@
 			(uuid "edcc0e1b-7a2f-4031-a1dc-7ae6b35c47b0")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR040")
@@ -6894,6 +6978,12 @@
 			(uuid "99c2e02e-1da0-4786-adde-b96c5d476ec8")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR0125")
@@ -6972,6 +7062,12 @@
 			(uuid "dcd4c886-c416-4571-a2ba-8dfece7988eb")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR0126")
@@ -7065,6 +7161,12 @@
 			(uuid "741dcc11-811b-4edb-97ef-67baddc36a13")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "D3")
@@ -7143,6 +7245,12 @@
 			(uuid "9de6f17a-1ad4-4eb8-b898-04eeda31c1bb")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR041")
@@ -7236,6 +7344,12 @@
 			(uuid "d2a23a59-96eb-4f10-bf14-a9e75bee5bc4")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "D4")
@@ -7318,6 +7432,12 @@
 			(uuid "2e3d8902-eb5d-4506-9af7-835c10195b04")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R5")
@@ -7395,6 +7515,12 @@
 			(uuid "5f9708f3-f838-4e45-9a10-f469f37b7894")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR018")
@@ -7477,6 +7603,12 @@
 			(uuid "3b584f0a-98ad-4441-9647-7586de19bf4e")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "C19")
@@ -7555,6 +7687,12 @@
 			(uuid "aa77f4ee-5471-48e3-9065-6b7d76e806ef")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR036")
@@ -7632,6 +7770,12 @@
 			(uuid "667aeae5-ae71-4b67-8429-1fdfd4c5295e")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR031")
@@ -7714,6 +7858,12 @@
 			(uuid "793bb0c4-b024-4ff7-9ab4-75e852d24824")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "C5")
@@ -7796,6 +7946,12 @@
 			(uuid "7f880394-bdaa-4831-88d6-bd50f2067843")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R10")
@@ -7873,6 +8029,12 @@
 			(uuid "2729ad92-9132-4dca-8778-f809f07d94aa")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR088")
@@ -7951,6 +8113,12 @@
 			(uuid "1b177925-ec02-4c3c-8114-689650ac8120")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR015")
@@ -8032,6 +8200,12 @@
 			(uuid "a1c594f7-8ece-4df2-8718-fb384a5cf341")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "C6")
@@ -8130,6 +8304,12 @@
 			(uuid "42fb7513-1190-4b19-9099-0f173b38c84b")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "U3")
@@ -8211,6 +8391,12 @@
 			(uuid "b69a25e9-086e-4357-8c0c-fd24de422256")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "C12")
@@ -8290,6 +8476,12 @@
 			(uuid "9816bac2-88be-4b1b-8f49-48802e1bfa48")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "D15")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "D15")
@@ -8372,6 +8564,12 @@
 			(uuid "3b2452c7-ca23-4ea5-9bfb-85675d504f8e")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "D1")
@@ -8456,6 +8654,12 @@
 			(uuid "a687820f-811b-496d-8afb-95a77fc05825")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "J3")
@@ -8635,6 +8839,12 @@
 			(uuid "61dfe61b-1783-4dbc-a758-2beb9d5eb792")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "IC2")
@@ -8713,6 +8923,12 @@
 			(uuid "67ae2302-5b28-48d2-840c-464505a79ae4")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR020")
@@ -8791,6 +9007,12 @@
 			(uuid "b5b66c83-8816-450b-96db-b27a0368a34a")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR076")
@@ -8872,6 +9094,12 @@
 			(uuid "1b31062a-1713-4edf-8518-3ca089598912")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "D7")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "D7")
@@ -8954,6 +9182,12 @@
 			(uuid "21902056-afb1-438c-a221-c65a4f938c7d")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R7")
@@ -9036,6 +9270,12 @@
 			(uuid "fac8acf9-40eb-43ee-b565-b221f0a29725")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R8")
@@ -9117,6 +9357,12 @@
 			(uuid "8d020824-8cbd-48f0-b7d5-8d8913506b03")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "C4")
@@ -9195,6 +9441,12 @@
 			(uuid "e95aa84e-d908-4935-9a97-8f050824750d")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR077")
@@ -9273,6 +9525,12 @@
 			(uuid "b61ab959-2b6a-49d3-b0ec-3f83e14af492")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR090")
@@ -9351,6 +9609,12 @@
 			(uuid "7613e360-0fed-40f3-ae14-fed1784f5c29")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR089")
@@ -9433,6 +9697,12 @@
 			(uuid "a76f716c-9326-418f-88e8-b9278e682f38")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "D8")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "D8")
@@ -9515,6 +9785,12 @@
 			(uuid "ab5fba97-ff85-4958-885b-c60aa1fffad0")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "C20")
@@ -9593,6 +9869,12 @@
 			(uuid "a26124b3-2010-43b0-9521-8c41d47ff8c2")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR085")
@@ -9671,6 +9953,12 @@
 			(uuid "643a7eb9-9866-4e1d-a944-6fccd121ce83")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR021")
@@ -9789,6 +10077,12 @@
 			(uuid "905a5819-96a0-4f51-ac2b-ab0e51671c5d")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "Q2")
@@ -9870,6 +10164,12 @@
 			(uuid "e4e35d2c-abeb-4130-a438-9e27e7ac422f")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R13")
@@ -9947,6 +10247,12 @@
 			(uuid "216c5d1b-7b49-4a18-ac89-5e037a4a695d")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR078")
@@ -10028,6 +10334,12 @@
 			(uuid "651c8f04-8d54-48e5-b12b-d4b5ee356dc5")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "C3")
@@ -10109,6 +10421,12 @@
 			(uuid "8b839224-d068-44e0-8615-a68b523251b9")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "C2")
@@ -10187,6 +10505,12 @@
 			(uuid "c8a51272-281d-4338-a8b0-6f2c01ad2290")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR027")
@@ -10265,6 +10589,12 @@
 			(uuid "9cce21d5-9a9e-4c42-b025-07fc206d061d")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR024")
@@ -10347,6 +10677,12 @@
 			(uuid "3cc466a8-0fad-4623-b3b4-bf3b5ff2decb")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "C21")
@@ -10425,6 +10761,12 @@
 			(uuid "c61908c0-4cc4-4a65-87e4-e740c6628785")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR042")
@@ -10507,6 +10849,12 @@
 			(uuid "89833872-d5c8-495b-a4fb-1a487a01d1b5")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R9")
@@ -10584,6 +10932,12 @@
 			(uuid "23c307eb-2e9b-4f1a-8926-b7749db28cd2")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR010")
@@ -10662,6 +11016,12 @@
 			(uuid "36c5c4b9-64b9-4f7b-859d-6ce57cea06c0")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR081")
@@ -10740,6 +11100,12 @@
 			(uuid "86a926b3-1f93-4c7e-9036-a976113f7df6")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR034")
@@ -10822,6 +11188,12 @@
 			(uuid "001083e9-9501-4ff4-99ab-696ec2acd3ec")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R1")
@@ -10900,6 +11272,12 @@
 			(uuid "aeeeb56a-cf32-47c3-8c60-67a0a07970d4")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR09")
@@ -10978,6 +11356,12 @@
 			(uuid "d0fd9f50-6845-4ea6-838a-4df938c142f8")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR084")
@@ -11056,6 +11440,12 @@
 			(uuid "dbc84c2d-8105-4382-b79a-16564511d3b6")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR02")
@@ -11137,6 +11527,12 @@
 			(uuid "f3d3f2af-7289-420e-88ba-7e3c1b294043")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R15")
@@ -11215,6 +11611,12 @@
 			(uuid "b135bb0f-6e5a-4661-b128-0acfbf96ff7b")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR07")
@@ -11297,6 +11699,12 @@
 			(uuid "401d7977-fe4a-45a2-b6a5-c07576ba0e19")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R6")
@@ -11390,6 +11798,12 @@
 			(uuid "a40f57c8-035f-41d2-8191-17be53a77f2f")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "D2")
@@ -11472,6 +11886,12 @@
 			(uuid "53a852c0-354e-4dd5-9ddf-197b872b5f5a")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R3")
@@ -11564,6 +11984,12 @@
 			(uuid "50030376-c10d-42ec-b0a5-bec4ba9c2c4b")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "Q1")
@@ -11642,6 +12068,12 @@
 			(uuid "e5a867ef-0952-4a81-bd1b-02b1458bf64a")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR019")
@@ -11720,6 +12152,12 @@
 			(uuid "a805e122-4ad8-4817-b762-0e64995712a1")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR0124")
@@ -11802,6 +12240,12 @@
 			(uuid "6176fdf2-e60e-4c45-9b94-42ee2980e3f2")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R12")
@@ -11880,6 +12324,12 @@
 			(uuid "c7011275-aa56-4857-a29c-f03539a30777")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR079")
@@ -11958,6 +12408,12 @@
 			(uuid "63ee86e0-6785-4748-b5a3-e6c1dfad81ea")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR045")
@@ -12050,6 +12506,12 @@
 			(uuid "bce914ef-5ee8-4131-b944-1dd24db02284")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "D11")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "D11")
@@ -12128,6 +12590,12 @@
 			(uuid "3a54cca7-45ef-48fc-aca6-85db3e3193b5")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR037")
@@ -12306,6 +12774,12 @@
 			(uuid "24ee60d6-7126-4c10-b14d-60a96af316d8")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "IC1")
@@ -12424,6 +12898,12 @@
 			(uuid "43b7d9bf-250c-46fb-b1eb-1903e0d9e5fc")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "Q4")
@@ -12502,6 +12982,12 @@
 			(uuid "8b60b4eb-787c-4f97-8fb9-20edf3050c5e")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR091")
@@ -12580,6 +13066,12 @@
 			(uuid "7a4cbb9e-cbec-4049-8caa-69789acc9e31")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR0128")
@@ -12660,6 +13152,12 @@
 			(uuid "e5624ed2-6227-4a4c-951e-f9477c11ecb6")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "L1")
@@ -12738,6 +13236,12 @@
 			(uuid "a9cc9a2d-a1d8-4e22-87df-4c44e9fba0a8")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR093")
@@ -12819,6 +13323,12 @@
 			(uuid "02c7a0cc-ff0e-40d6-b062-df6c23c21fe7")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "C8")
@@ -12901,6 +13411,12 @@
 			(uuid "f8a14845-25bc-46d2-8573-1338cb76bbf5")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R2")
@@ -12979,6 +13495,12 @@
 			(uuid "4935ef7d-8544-4a6f-a605-4fae98282edd")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR087")
@@ -13057,6 +13579,12 @@
 			(uuid "259ef6a7-2abe-41fd-8141-c66b32fc60b4")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR044")
@@ -13135,6 +13663,12 @@
 			(uuid "7491f845-3b51-41c4-b375-f521c38121e9")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR022")
@@ -13216,6 +13750,12 @@
 			(uuid "1c3cc5b2-c911-4089-b2d8-1a8b89567f13")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R11")
@@ -13294,6 +13834,12 @@
 			(uuid "96add163-5d29-4841-9b9e-eb579e344d59")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR01")
@@ -13378,6 +13924,12 @@
 			(uuid "710d4660-3df7-4a50-b04c-982af3dca26d")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "J4")
@@ -13460,6 +14012,12 @@
 			(uuid "c3dc3c70-2a84-446d-b4cc-a57d4b037c4e")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R47")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R47")
@@ -13538,6 +14096,12 @@
 			(uuid "43a1b822-ecf3-42ad-a270-ce7b04b2c58c")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR035")
@@ -13616,6 +14180,12 @@
 			(uuid "3b8e02de-0b78-49f5-af69-a1a8daa32417")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR06")
@@ -13695,6 +14265,12 @@
 			(uuid "3880adec-75d8-46b9-987d-e81392798b00")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR08")
@@ -13777,6 +14353,12 @@
 			(uuid "252a3752-52bf-4627-b42c-af7f10ac3f5d")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R16")
@@ -13858,6 +14440,12 @@
 			(uuid "148e1011-79fc-4b47-8c67-3b61740332d1")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "D5")
@@ -13936,6 +14524,12 @@
 			(uuid "8053ef19-1488-4d1a-96c2-647b0600b245")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR083")
@@ -14014,6 +14608,12 @@
 			(uuid "7f835a47-3da1-4e46-916a-91bcf285ea54")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR082")
@@ -14096,6 +14696,12 @@
 			(uuid "3d5d52e9-3306-428f-b9d7-e19d28f62236")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R14")
@@ -14177,6 +14783,12 @@
 			(uuid "52600a9d-3ab9-41f9-8f83-30935f96a529")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R24")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R24")
@@ -14261,6 +14873,12 @@
 			(uuid "c4332413-9199-4ade-b0a5-3739bdfd26ea")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "J21")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "J21")
@@ -14339,6 +14957,12 @@
 			(uuid "4f97a5b6-d43a-4913-852a-c7fe1637b62b")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR0127")
@@ -14457,6 +15081,12 @@
 			(uuid "b678ce65-138f-4e00-a5cb-69e938ed0163")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "Q3")
@@ -14535,6 +15165,12 @@
 			(uuid "c1df1dbf-5907-4dcd-86c8-133df39bb49c")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR025")
@@ -14613,6 +15249,12 @@
 			(uuid "a435bcfc-9612-49ed-b582-536146e1aa50")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR086")
@@ -14696,6 +15338,12 @@
 			(uuid "1635c09f-253d-42f5-8ccc-04212bc2f242")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "J22")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "J22")
@@ -14788,6 +15436,12 @@
 			(uuid "c71b3f8f-40a9-4723-9398-2f4e6bf81850")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "D12")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "D12")
@@ -14967,6 +15621,12 @@
 			(uuid "ad305655-3cc4-43eb-b41a-4fb230705fcc")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "IC3")
@@ -15049,6 +15709,12 @@
 			(uuid "3a0c7824-aac9-46fe-b8db-e7c5a475f6cb")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "C7")
@@ -15127,6 +15793,12 @@
 			(uuid "fc26a648-c441-48b0-9a76-bfa6b4dafb80")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR04")
@@ -15205,6 +15877,12 @@
 			(uuid "3be61aff-5d7e-4120-9922-e7488340ce16")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "#PWR033")
@@ -15287,6 +15965,12 @@
 			(uuid "77d2ade9-0b21-417e-8a6b-b33b593435fa")
 		)
 		(instances
+			(project "Power"
+				(path "/43c211d3-2033-40a7-968e-ade4164e2389"
+					(reference "R46")
+					(unit 1)
+				)
+			)
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691/6219bf49-5574-4710-86f4-9f93da84ad76"
 					(reference "R46")
@@ -15295,4 +15979,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
