@@ -5287,7 +5287,7 @@
 		(uuid "0a5c17a6-a321-424c-9461-6ef1973d3cbf")
 	)
 	(no_connect
-		(at 60.96 71.12)
+		(at 60.96 63.5)
 		(uuid "1759c876-3d2b-4e8a-8b96-cd2b667b5a53")
 	)
 	(no_connect
@@ -5419,16 +5419,6 @@
 			(type default)
 		)
 		(uuid "0a670da3-0807-4614-8f57-5890cf9c0512")
-	)
-	(wire
-		(pts
-			(xy 60.96 63.5) (xy 62.23 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c92684c-232d-4577-8f69-c62e8888fc96")
 	)
 	(wire
 		(pts
@@ -6229,6 +6219,16 @@
 			(type default)
 		)
 		(uuid "65e1f16e-b016-4b28-ba6f-4a32a3d0b987")
+	)
+	(wire
+		(pts
+			(xy 60.96 71.12) (xy 62.23 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65fe1420-63ec-4427-bc7f-66aaf49e1f82")
 	)
 	(wire
 		(pts
@@ -7724,7 +7724,7 @@
 	)
 	(global_label "SM_TRIP"
 		(shape input)
-		(at 62.23 63.5 0)
+		(at 62.23 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7735,7 +7735,7 @@
 		)
 		(uuid "2a0a27ee-a575-44b4-9e1f-d509a57313d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.9561 63.5 0)
+			(at 72.9561 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
