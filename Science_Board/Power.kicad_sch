@@ -3893,19 +3893,6 @@
 		)
 		(uuid "17a0272f-aa08-4209-b69c-6cb20a36b063")
 	)
-	(circle
-		(center 203.2 25.4)
-		(radius 6.35)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 255 13 36 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "1cdd7d22-8b14-4601-9b9f-2377c8cfaf1f")
-	)
 	(rectangle
 		(start 135.89 12.7)
 		(end 231.14 58.42)
@@ -4023,17 +4010,6 @@
 			)
 		)
 		(uuid "058f33f7-0a7e-4428-b491-2c09881802cb")
-	)
-	(text "WHAT THE HELL MAN! \nTIMDAY DOES NOT APROVE"
-		(exclude_from_sim no)
-		(at 233.934 19.558 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 255 27 43 1)
-			)
-		)
-		(uuid "1fc01f9e-0c70-4328-b8e7-6c6b45b89151")
 	)
 	(text "Fuse Detectors"
 		(exclude_from_sim no)
@@ -6268,7 +6244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 99.3648 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7672,7 +7648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 140.6652 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8634,7 +8610,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4050EP.pdf"
 			(at 203.2 25.4 0)
 			(hide yes)
 			(show_name no)

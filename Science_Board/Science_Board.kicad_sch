@@ -5942,16 +5942,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 109.22) (xy 191.77 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "467c2cb6-c4e5-4c27-865f-3afc180867a3")
-	)
-	(wire
-		(pts
 			(xy 134.62 83.82) (xy 135.89 83.82)
 		)
 		(stroke
@@ -6479,16 +6469,6 @@
 			(type default)
 		)
 		(uuid "87bd70c5-b032-4e89-b529-35be6dba7120")
-	)
-	(wire
-		(pts
-			(xy 190.5 106.68) (xy 191.77 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89002fac-3fbf-4095-b780-eb107a15ff21")
 	)
 	(wire
 		(pts
@@ -8397,30 +8377,6 @@
 			)
 		)
 	)
-	(global_label "CANL"
-		(shape input)
-		(at 190.5 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9c154b3d-0b7b-44f0-b64e-23377324162a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.7976 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "Servo7"
 		(shape input)
 		(at 154.94 52.07 0)
@@ -8903,30 +8859,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "CANH"
-		(shape input)
-		(at 190.5 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c535e811-aee3-42cf-8fa6-f32034c5b7ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.4952 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -12518,7 +12450,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 155.2448 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -14105,7 +14037,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 81.5848 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -16370,88 +16302,6 @@
 			(project "Science_Board"
 				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
 					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 196.85 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1ba9937-5f7b-4eb7-9863-505f6ed14a25")
-		(property "Reference" "J19"
-			(at 199.39 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 199.39 109.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
-			(at 196.85 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 196.85 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "504b41c5-8050-432d-bcd8-d33ae4c2efda")
-		)
-		(pin "2"
-			(uuid "a6263b54-5362-4e1d-8d12-04e71c524dc1")
-		)
-		(instances
-			(project "Science_Board"
-				(path "/4f5c5f7f-4385-4de2-96ca-2ae741ebf691"
-					(reference "J19")
 					(unit 1)
 				)
 			)
