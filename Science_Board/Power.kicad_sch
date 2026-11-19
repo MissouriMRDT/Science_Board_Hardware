@@ -6062,7 +6062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10V"
+		(property "Value" "SMAJ28CA"
 			(at 60.96 38.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6073,7 +6073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 58.42 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6084,7 +6084,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-inc/SMAJ28CA/762293?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYAWABjACZqQBdAgBwBcoQBldgJwCWAOwDmIAL4EA7LAjQQySOmz4ipcLACsADlh0QBODtiUDG8tvLwWIDl16DREggFp98xfwCuq4pDKazJIgLgCcCApQ3r7qEEziwe5kACoAatwABAAmAoRZOEFAA"
 			(at 58.42 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6408,7 +6408,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10V"
+		(property "Value" "SMAJ28CA"
 			(at 26.67 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6419,7 +6419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 24.13 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6430,7 +6430,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-inc/SMAJ28CA/762293?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYAWABjACZqQBdAgBwBcoQBldgJwCWAOwDmIAL4EA7LAjQQySOmz4ipcLACsADlh0QBODtiUDG8tvLwWIDl16DREggFp98xfwCuq4pDKazJIgLgCcCApQ3r7qEEziwe5kACoAatwABAAmAoRZOEFAA"
 			(at 24.13 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6845,7 +6845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "28V"
+		(property "Value" "SMAJ28CA"
 			(at 14.478 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6856,7 +6856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 20.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6867,7 +6867,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-inc/SMAJ28CA/762293?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYAWABjACZqQBdAgBwBcoQBldgJwCWAOwDmIAL4EA7LAjQQySOmz4ipcLACsADlh0QBODtiUDG8tvLwWIDl16DREggFp98xfwCuq4pDKazJIgLgCcCApQ3r7qEEziwe5kACoAatwABAAmAoRZOEFAA"
 			(at 20.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8676,7 +8676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10V"
+		(property "Value" "SMAJ28CA"
 			(at 106.68 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8687,7 +8687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 104.14 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8698,7 +8698,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-inc/SMAJ28CA/762293?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYAWABjACZqQBdAgBwBcoQBldgJwCWAOwDmIAL4EA7LAjQQySOmz4ipcLACsADlh0QBODtiUDG8tvLwWIDl16DREggFp98xfwCuq4pDKazJIgLgCcCApQ3r7qEEziwe5kACoAatwABAAmAoRZOEFAA"
 			(at 104.14 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9206,7 +9206,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6V"
+		(property "Value" "SZMM3Z5V6ST1G"
 			(at 109.728 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9217,7 +9217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 115.57 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9228,7 +9228,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/SZMM3Z5V6ST1G/3063165"
 			(at 115.57 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9888,7 +9888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10V"
+		(property "Value" "SMAJ28CA"
 			(at 26.67 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,7 +9899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 24.13 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9910,7 +9910,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-inc/SMAJ28CA/762293?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYAWABjACZqQBdAgBwBcoQBldgJwCWAOwDmIAL4EA7LAjQQySOmz4ipcLACsADlh0QBODtiUDG8tvLwWIDl16DREggFp98xfwCuq4pDKazJIgLgCcCApQ3r7qEEziwe5kACoAatwABAAmAoRZOEFAA"
 			(at 24.13 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -14866,7 +14866,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "28V"
+		(property "Value" "SMAJ28CA"
 			(at 14.478 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14877,7 +14877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 20.32 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14888,7 +14888,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-inc/SMAJ28CA/762293?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYAWABjACZqQBdAgBwBcoQBldgJwCWAOwDmIAL4EA7LAjQQySOmz4ipcLACsADlh0QBODtiUDG8tvLwWIDl16DREggFp98xfwCuq4pDKazJIgLgCcCApQ3r7qEEziwe5kACoAatwABAAmAoRZOEFAA"
 			(at 20.32 106.68 0)
 			(hide yes)
 			(show_name no)
